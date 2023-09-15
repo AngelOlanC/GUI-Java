@@ -1,4 +1,4 @@
-package Pares;
+package JuegoDePares;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,7 +11,7 @@ public class Lectura extends JPanel {
         setLayout(new GridLayout(0,3));
         add(new JLabel("Ingrese la cantidad de pares: "));
         add(areaDeTexto = new JTextArea());
-        botonEnviar = new JButton();
+        botonEnviar = new JButton("Enviar");
         botonEnviar.addActionListener(controlador);
         add(botonEnviar);
     }

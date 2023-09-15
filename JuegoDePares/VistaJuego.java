@@ -1,4 +1,4 @@
-package Pares;
+package JuegoDePares;
 
 import javax.swing.*;
 import java.awt.*;
@@ -9,7 +9,7 @@ class VistaJuego extends JFrame {
         setSize(1000,800);
         setResizable(false);
 
-        setIconImage(new ImageIcon("Pares/Imagenes/Icono.png").getImage());
+        setIconImage(new ImageIcon("JuegoDePares/Imagenes/Icono.png").getImage());
 
         setLocationRelativeTo(null);
 

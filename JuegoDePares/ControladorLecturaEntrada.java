@@ -1,4 +1,4 @@
-package Pares;
+package JuegoDePares;
 
 import javax.swing.*;
 

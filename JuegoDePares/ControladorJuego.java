@@ -1,6 +1,4 @@
-package Pares;
-
-import Pares.Imagenes.ManejadorEventosCartas;
+package JuegoDePares;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

@@ -1,4 +1,4 @@
-package Pares;
+package JuegoDePares;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
@@ -7,7 +7,7 @@ import java.io.IOException;
 
 class GenerarImagenes {
     public static void main(String[] args) throws IOException {
-        final BufferedImage PLANTILLA = ImageIO.read(new File("Pares/Imagenes/Cartas/Plantilla.png"));
+        final BufferedImage PLANTILLA = ImageIO.read(new File("JuegoDePares/Imagenes/Cartas/Plantilla.png"));
         final int ANCHURA_CARTA = 225, ALTURA_CARTA = 315,
                   NUMERO_CARTAS_POR_FILA = PLANTILLA.getWidth() / ANCHURA_CARTA,
                   NUMERO_FILAS = PLANTILLA.getHeight() / ALTURA_CARTA;
@@ -19,7 +19,7 @@ class GenerarImagenes {
                                                                          ANCHURA_CARTA,
                                                                          ALTURA_CARTA);
                 ImageIO.write(imagenRecortada, "png",
-                        new File("Pares/Imagenes/Cartas/" + (i * NUMERO_CARTAS_POR_FILA + j) + ".png"));
+                        new File("JuegoDePares/Imagenes/Cartas/" + (i * NUMERO_CARTAS_POR_FILA + j) + ".png"));
             }
         }
     }

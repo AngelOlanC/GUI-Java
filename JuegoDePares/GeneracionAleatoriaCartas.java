@@ -1,4 +1,4 @@
-package Pares;
+package JuegoDePares;
 
 import java.util.Random;
 
@@ -8,8 +8,8 @@ public class GeneracionAleatoriaCartas {
         Integer[] indices = getIndicesRevueltos();
         Carta[] cartas = new Carta[numeroPares * 2];
         for (int i = 0, j = 0; i < numeroPares; i++) {
-            cartas[j++] = new Carta("Pares/Imagenes/Cartas/" + indices[i] + ".png");
-            cartas[j++] = new Carta("Pares/Imagenes/Cartas/" + indices[i] + ".png");
+            cartas[j++] = new Carta("JuegoDePares/Imagenes/Cartas/" + indices[i] + ".png");
+            cartas[j++] = new Carta("JuegoDePares/Imagenes/Cartas/" + indices[i] + ".png");
         }
 
         return (Carta[]) mezclarElementosAleatoriamente(cartas);

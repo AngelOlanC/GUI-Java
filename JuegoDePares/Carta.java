@@ -1,9 +1,9 @@
-package Pares;
+package JuegoDePares;
 
 import javax.swing.*;
 
 class Carta extends JButton {
-    public static String rutaImagenPorDefecto = "Pares/Imagenes/Cartas/CartaCubierta.png";
+    public static String rutaImagenPorDefecto = "JuegoDePares/Imagenes/Cartas/CartaCubierta.png";
     private String rutaImagen;
 
     public Carta(String rutaImagen) {
